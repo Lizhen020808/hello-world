@@ -11,4 +11,6 @@ char* StrCopy(char* src)
 	dec[len] = '\0';
 	return dec;
 }
-
+/**
+*B20031814李振
+*/

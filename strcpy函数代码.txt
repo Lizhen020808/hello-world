@@ -1,0 +1,13 @@
+#include<malloc.h>
+#include<iostream>
+char* StrCopy(char* src)
+{
+	int len = sizeof(src);
+	char* dec = (char*)malloc(len);
+	for (int j = 0; src[j] != '\0'; j++)
+	{
+		dec[j] = src[j];
+	}
+	dec[len] = '\0';
+	return dec;
+}
